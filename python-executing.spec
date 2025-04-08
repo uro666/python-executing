@@ -18,8 +18,8 @@ BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(setuptools-scm)
 BuildRequires:	python%{pyver}dist(wheel)
 %if %{with test}
+BuildRequires:	ipython
 BuildRequires:	python%{pyver}dist(asttokens) >= 2.1.0
-BuildRequires:	python%{pyver}dist(ipython)
 BuildRequires:	python%{pyver}dist(pytest)
 BuildRequires:	python%{pyver}dist(coverage)
 BuildRequires:	python%{pyver}dist(littleutils)
